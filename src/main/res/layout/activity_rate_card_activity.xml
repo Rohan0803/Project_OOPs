@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RateCard_activity"
+    android:background="@drawable/background4">
+
+    <TextView
+        android:id="@+id/Rate_card_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Rate Card"
+        android:layout_alignParentTop="true"
+        android:textSize="50sp"
+        android:textColor="#FB0303"
+        />
+
+    <TextView
+        android:id="@+id/R_Washing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/Rate_card_Text"
+        android:text="Washing"
+        android:textSize="30sp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:textColor="#FA4005"
+        />
+
+
+    <CheckBox
+        android:id="@+id/Shirts_Chbk"
+        android:layout_width="391dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/R_Washing"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Rate per Shirts : 5 Rupees "
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/pants_Chbk"
+        android:layout_width="391dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/Shirts_Chbk"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Rate per pant : 6 Rupees"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/jackets_Chbk"
+        android:layout_width="391dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/pants_Chbk"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Rate per jacket : 10 Rupees"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/suits_Chbk"
+        android:layout_width="391dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/jackets_Chbk"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text=" Female suit : 15 Rupees"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/Proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suits_Chbk"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttons"
+        android:text="Proceed Next"
+        android:textColor="#FFFFFF"
+        />
+
+
+</RelativeLayout>

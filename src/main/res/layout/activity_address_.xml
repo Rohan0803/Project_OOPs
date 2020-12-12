@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Address_Activity"
+    android:background="@drawable/background2"
+    >
+
+    <TextView
+        android:id="@+id/Add_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Pickup Details"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#F40808"/>
+
+
+
+
+    <TextView
+        android:id="@+id/Pickup_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="77dp"
+        android:text="Pickup Time : 5pm to 6pm \n Pickup Date : Today"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_below="@+id/Add_Location"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingStart="20dp"/>
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone"
+        android:layout_below="@+id/UserName"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingStart="20dp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City Name"
+        android:layout_below="@+id/State"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingStart="20dp"/>
+
+    <EditText
+        android:id="@+id/State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter State Name"
+        android:layout_below="@+id/Phone"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingStart="20dp"/>
+
+    <EditText
+        android:id="@+id/Pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pin Code"
+        android:layout_below="@+id/City"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:inputType="number"
+        android:paddingStart="20dp"/>
+
+    <EditText
+        android:id="@+id/HouseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Flat / House Number"
+        android:layout_below="@+id/Pincode"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingStart="20dp"/>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HouseNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/input_design"
+        android:text="Confirm Order "
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please Order before 5pm to pick Today itself\n otherwise your order will be picked Tommorow between given time"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@id/confirm"
+        android:textColor="#F40808"/>
+
+
+</RelativeLayout>

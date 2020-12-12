@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "550954045143",
+    "firebase_url": "https://whatsappcl-b558b.firebaseio.com",
+    "project_id": "whatsappcl-b558b",
+    "storage_bucket": "whatsappcl-b558b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550954045143:android:46e7ef5b5b6cf9326daa92",
+        "android_client_info": {
+          "package_name": "rohan.myappcompany.e_laundrysystemapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550954045143-hlsup0724rees62fq8sj7fcof6ppf87j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl44fNKqRIRPj-giQJDhv4ZiCNA8DIQKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550954045143-hlsup0724rees62fq8sj7fcof6ppf87j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550954045143:android:55507c85826a95f86daa92",
+        "android_client_info": {
+          "package_name": "rohan.myappcompany.whatsappc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550954045143-q5e5jdg3bmhf4tfknrj1rhr31kei5o62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rohan.myappcompany.whatsappc",
+            "certificate_hash": "d7aa506b75c267924eefd2d5b52f702ba7260f0f"
+          }
+        },
+        {
+          "client_id": "550954045143-hlsup0724rees62fq8sj7fcof6ppf87j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl44fNKqRIRPj-giQJDhv4ZiCNA8DIQKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550954045143-hlsup0724rees62fq8sj7fcof6ppf87j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

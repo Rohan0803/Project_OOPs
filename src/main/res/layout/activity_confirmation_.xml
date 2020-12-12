@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirmation_Activity"
+    android:background="@drawable/background4">
+
+    <TextView
+        android:id="@+id/Confirmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Confirmed"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#D404F8"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Order Will be Pickup From Your Location Today Between: "
+        android:textSize="50sp"
+        android:layout_below="@+id/Confirmed"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5pm to 6pm "
+        android:textSize="50sp"
+        android:textAlignment="viewEnd"
+        android:layout_marginTop="20dp"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:layout_below="@+id/Message"
+        />
+    <TextView
+        android:id="@+id/Review_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Rate Your Experience On this App "
+        android:layout_below="@+id/Time"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <RatingBar
+        android:id="@+id/Rate_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Review_text"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#F9F8FA"
+        android:layout_marginTop="20dp"
+        android:numStars="5"
+        android:saveEnabled="true"
+        android:rating="0.0"
+        android:progressBackgroundTint="#000000"/>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_below="@id/Rate_bar"
+        android:background="@drawable/buttons"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order_Summery_Activity"
+    android:background="@drawable/background9">
+
+
+    <TextView
+        android:id="@+id/OrderSummery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Summery"
+        android:textSize="45dp"
+        android:textColor="#FF5722"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/Amount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount : "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#D8FF04FB"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/OrderSummery"
+
+        />
+
+    <TextView
+        android:id="@+id/Amount_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="#D8044BFF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/Amount_text"
+        android:layout_below="@id/OrderSummery"
+        />
+
+    <TextView
+        android:id="@+id/Order_text"
+        android:layout_width="355dp"
+        android:layout_height="315dp"
+        android:layout_below="@id/Amount_Number"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Text View"
+        android:textColor="#070707"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Order_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/input_design"
+        android:text="Next"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

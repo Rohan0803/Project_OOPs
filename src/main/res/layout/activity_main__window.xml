@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background9"
+
+    tools:context=".Main_Window">
+
+
+    <TextView
+        android:id="@+id/Welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="Welcome User"
+        android:textColor="#DA00FF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Selct_Options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the facility"
+        android:textSize="30sp"
+        android:layout_below="@+id/Welcome_text"
+        android:gravity="center"
+        android:textColor="#DA00FF"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="491dp"
+        android:layout_below="@id/Selct_Options"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/washing"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/p4" />
+
+        <TextView
+            android:id="@+id/washing_text"
+            android:layout_width="409dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Washing"
+            android:textColor="#FF0202"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/Iron"
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/p1" />
+
+        <TextView
+            android:id="@+id/Iron_text"
+            android:layout_width="400dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Iron Cloths"
+            android:textColor="#FF0202"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/DryCleaning"
+            android:layout_width="400dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/DryCleaning_text"
+            android:layout_width="406dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Dry Cleaning"
+            android:textColor="#FF0202"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
